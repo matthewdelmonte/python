@@ -1,2 +1,3 @@
 # python
-Utility applications written in Python
+
+Utility functions written in Python
