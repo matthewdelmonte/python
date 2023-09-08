@@ -7,7 +7,12 @@ current_time_milliseconds = int(time.time() * 1000)
 current_time_seconds = current_time_milliseconds / 1000
 
 epoch_time = input("Enter epoch time in milliseconds: ")
-epoch_time_seconds = float(epoch_time) / 1000
+len_of_number = len(str(epoch_time))
+
+if len_of_number == 13:
+    epoch_time_seconds = float(epoch_time) / 1000
+else:
+    epoch_time_seconds = float(epoch_time)
 
 # localtime is GMT - 7 for PDT or you can just use gmtime for GMT output
 readable_time = time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(epoch_time_seconds))
