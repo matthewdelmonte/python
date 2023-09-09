@@ -5,7 +5,7 @@ from calculator.multiply.multiply import multiply
 sample_variable = "This is a string variable in the sample.py module"
 
 
-# A vunction in the module
+# A function in the module
 def say_hello(name):
     return f"Hello, {name} welcome to this simple module."
 
