@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://fastmonkey.com/person-schema",
+    "title": "Person",
+    "description": "A person schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "type": "integer",
+            "exclusiveMinimum": 0
+        },
+        "isStudent": {
+            "type": "boolean"
+        }
+    },
+    "required": ["name", "age"],
+    "additionalProperties": false
+}
