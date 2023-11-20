@@ -1,6 +1,11 @@
+from typing import Dict, List
+
 nums = [15, 8, 2, 10, 12, 45, 23, 9]
 
-def binary_search(array, target):
+def binary_search(array: List[int], target: int) -> Dict[int, int]:
+    if not all(isinstance(num, int) for num in array):
+        raise TypeError("Invalid argument type. 'array' must be a list of integers.")
+
     left = 0
     right = len(array) -1
 
