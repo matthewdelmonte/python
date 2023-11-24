@@ -1,4 +1,4 @@
-# REGEX for searching files
+# Search for a phrase in a file
 import re
 
 # User entries
