@@ -12,7 +12,7 @@ match_count = 0
 # Open file
 my_find = open(search_file)
 
-# Search for phrase
+# Search
 for line in my_find:
     line = line.rstrip()
     if line.find(search_phrase) >= 0:
