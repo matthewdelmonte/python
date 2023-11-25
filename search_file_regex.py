@@ -1,8 +1,10 @@
-# Search for a phrase in a file using find()
+
+# Search for a phrase in a file using REGEX
 import re
 
 # User entries
-search_phrase = input('Enter a search term: ')
+search_input = input('Enter a search term: ')
+search_phrase = str(search_input)
 search_file = input('Enter the relative path of the file: ')
 
 # State variables
@@ -15,7 +17,7 @@ my_find = open(search_file)
 # Search
 for line in my_find:
     line = line.rstrip()
-    if line.find(search_phrase) >= 0:
+    if re.search(search_phrase, line):
         match_found = True
         match_count = match_count +1
 
