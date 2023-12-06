@@ -10,17 +10,17 @@ match_found = False
 match_count = 0
 
 # Open file
-my_find = open(search_file)
+my_file = open(search_file)
 
 # Search
-for line in my_find:
+for line in my_file:
     line = line.rstrip()
     if line.find(search_phrase) >= 0:
         match_found = True
         match_count = match_count +1
 
 # Close the file
-my_find.close()
+my_file.close()
 
 # Print the results
 if match_found and match_count <= 1:
