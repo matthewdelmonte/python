@@ -1,7 +1,7 @@
 # convert celcius to fahrenheit
 def main():
     while True:
-        scale = input("Enter 'f' for Fahrenheit or 'c' for Celcius: ").lower()
+        scale = prompt("Enter 'f' for Fahrenheit or 'c' for Celcius: ", True)
 
         if scale in ["c", "f"]:
             temp = input("What is the temperature? ")
@@ -14,5 +14,15 @@ def main():
             break
         else:
             print("You must enter either f or c.")
+
+
+def prompt(display="Please input a string", require=True):
+    if require:
+        s = False
+        while not s:
+            s = input(display + " ").lower()
+    else:
+        s = input(display + " ").lower()
+    return s
 
 main()
