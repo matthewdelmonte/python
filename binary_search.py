@@ -1,3 +1,4 @@
+# Binary search algorithm implementation in Python.
 from typing import Dict, List
 
 nums = [15, 8, 2, 10, 12, 45, 23, 9]
