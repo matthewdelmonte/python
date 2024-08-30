@@ -1,8 +1,8 @@
-# This program is for practice
-import binary_search2 as bi
+import numpy as np
 
-myList = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+arr = np.arange(0, 10)
 
-binary = bi.bisect(myList, 12)
+print(arr)
 
-print(f"binary: {binary}")
+if __name__ == "__main__":
+   main()
