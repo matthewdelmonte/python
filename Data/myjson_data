@@ -1,0 +1,24 @@
+{
+  "People": [
+    {
+      "name": "Matthew",
+      "age": 53,
+      "isStudent": true
+    },
+    {
+      "name": "Kimberly",
+      "age": 53,
+      "isStudent": false
+    },
+    {
+      "name": "Caleb",
+      "age": 26,
+      "isStudent": false
+    },
+    {
+      "name": "Alyssa",
+      "age": 24,
+      "isStudent": true
+    }
+  ]
+}

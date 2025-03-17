@@ -1,5 +1,9 @@
-def add_numbers(num1, num2):
-    return num1 + num2
+import random
 
-result = add_numbers(5, 3)
-print(result)
+# print(dir(random))
+
+my_list = random.randrange(1, 100)
+print(my_list)
+
+fruits = ["Apple", "Banana", "Grape", "Orange"]
+print(random.choice(fruits))
