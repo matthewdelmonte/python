@@ -20,6 +20,8 @@ if average_purchases_per_day < 1:
 elif average_purchases_per_day == 1:
     communication = "An average of 1 purchase per day."
 else:
-    communication = f"An average of {average_purchases_per_day_formatted} purchases per day."
+    communication = (
+        f"An average of {average_purchases_per_day_formatted} purchases per day."
+    )
 
 print(communication)

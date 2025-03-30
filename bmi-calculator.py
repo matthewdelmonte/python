@@ -8,7 +8,8 @@ def getBMI(weight, height):
             print("Please enter a valid number")
             weight = input("Enter your weight in lb: ")
             height = input("Enter your height in in: ")
-    return weight * 720 / (height ** 2)
+    return weight * 720 / (height**2)
+
 
 def getBMICategory(bmi):
     bmi_range = [(0, 18.4), (18.5, 24.9), (25, 29.9), (30, 100)]
@@ -19,12 +20,14 @@ def getBMICategory(bmi):
             return categories[i]
     return "invalid"
 
+
 def main():
     weight = input("Enter your weight in lb: ")
     height = input("Enter your height in in: ")
     bmi = getBMI(weight, height)
     category = getBMICategory(bmi)
     print(f"Your BMI is {bmi:.2f} and you are {category} the normal range.")
+
 
 if __name__ == "__main__":
     main()

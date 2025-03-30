@@ -1,5 +1,6 @@
 # return message that speed was within the limit or post fine
 
+
 def getFine(sl, cs):
     while True:
         try:
@@ -10,7 +11,7 @@ def getFine(sl, cs):
                 base_fine = 50
                 mile_over_limit_fine = (clocked_speed - speed_limit) * 5
                 over_ninety_fine = 0
-                
+
                 if clocked_speed > 90:
                     over_ninety_fine = 200
 
@@ -20,9 +21,12 @@ def getFine(sl, cs):
             else:
                 return 0
         except ValueError:
-            print("Invalid input. Please enter a number for speed limit and clocked speed.")
+            print(
+                "Invalid input. Please enter a number for speed limit and clocked speed."
+            )
             sl = input("Enter the speed limit: ")
             cs = input("Enter the clocked speed: ")
+
 
 def getSpeed():
     speed_limit = input("Enter the speed limit: ")
@@ -37,4 +41,4 @@ def getSpeed():
 
 
 if __name__ == "__main__":
-    getSpeed() # input 65, 75 expect fine to = 100
+    getSpeed()  # input 65, 75 expect fine to = 100

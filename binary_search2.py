@@ -1,25 +1,27 @@
 # Binary Search modules are part of the Python Standard Library
 # Python documentation: https://docs.python.org/3/library/bisect.html
 
-#"""
+# """
 import bisect as bi
 from functools import cache
+
 
 @cache
 def main():
     myList = list(range(0, 100000, 2))
-    
+
     x = 100002
     i = bi.bisect_left(myList, x)
-    #print(myList, i)
-    
+    # print(myList, i)
+
     myList.insert(i, x)
     print(myList[i])
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
-#"""
-    
+# """
+
 # # bisect_left() function
 # def bisect(arr: list, x) -> int:
 #     lo = 0

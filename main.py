@@ -2,10 +2,10 @@ import json
 from jsonschema import validate
 from jsonschema.exceptions import ValidationError
 
-with open('person.json') as f:
+with open("person.json") as f:
     document = json.load(f)
 
-with open('person-schema.json') as f:
+with open("person-schema.json") as f:
     schema = json.load(f)
 
 try:

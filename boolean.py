@@ -1,6 +1,7 @@
 # log2n
 from functools import lru_cache
 
+
 # lru_cache is a decorator
 @lru_cache(maxsize=None)
 def fib(n):

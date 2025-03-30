@@ -27,4 +27,8 @@ converted_epoch_entry = time.strftime(
 )
 
 print("The current epoch time in mms is: {}".format(current_time_milliseconds))
-print("The current epoch time entered in human readable format is: {}".format(human_readable_time))
+print(
+    "The current epoch time entered in human readable format is: {}".format(
+        human_readable_time
+    )
+)

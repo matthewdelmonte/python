@@ -1,5 +1,6 @@
 # Fibonaci Sequence Find the number in the sequence for n
 
+
 def fibonaci(n):
     if n == 0:
         return 0
@@ -7,6 +8,7 @@ def fibonaci(n):
         return 1
     else:
         return fibonaci(n - 1) + fibonaci(n - 2)
+
 
 n = int(input("Enter a number for n: "))
 print(f"The {n}th number in the fibonaci sequence is {fibonaci(n)}")

@@ -2,8 +2,8 @@
 import re
 
 # User entries
-search_phrase = input('Enter a search term: ')
-search_file = input('Enter the relative path of the file: ')
+search_phrase = input("Enter a search term: ")
+search_file = input("Enter the relative path of the file: ")
 
 # State variables
 match_found = False
@@ -17,7 +17,7 @@ for line in my_file:
     line = line.rstrip()
     if line.find(search_phrase) >= 0:
         match_found = True
-        match_count = match_count +1
+        match_count = match_count + 1
 
 # Close the file
 my_file.close()
@@ -28,4 +28,4 @@ if match_found and match_count <= 1:
 elif match_found and match_count > 1:
     print(f"Found {match_count} results for {search_phrase}.")
 elif not match_found:
-    print('Could not find search value.')
+    print("Could not find search value.")

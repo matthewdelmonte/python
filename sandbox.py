@@ -18,6 +18,7 @@ from data import *
 # grouped_df = df.groupby('Country').mean()
 """
 
+
 def main():
     # dest = pd.read_csv('dest.csv')
     # print(dest.head(), '\n')
@@ -25,7 +26,7 @@ def main():
     # tips = pd.read_csv('tips.csv')
     # print(tips.head(), '\n')
 
-    # # join dataframes using inner join (matching values in both dataframes), outer join (all values in both dataframes), right join (all values in right dataframe), left join (all values in left dataframe), 
+    # # join dataframes using inner join (matching values in both dataframes), outer join (all values in both dataframes), right join (all values in right dataframe), left join (all values in left dataframe),
     # df_inner = pd.merge(dest, tips, on='EmpNr', how='left')
     # print(df_inner.head())
 
@@ -36,8 +37,8 @@ def main():
     # data = pd.DataFrame(sample_data, columns=['name', 'gender', 'communication_skill_score', 'quantitative_skill_score'])
     # print(data.describe(), '\n')
 
-    data1 = [7,8,4,9,8]
-    data2 = [3,4,2,1,1]
+    data1 = [7, 8, 4, 9, 8]
+    data2 = [3, 4, 2, 1, 1]
 
     stat, p = mannwhitneyu(data1, data2)
     print("p-values:", p)
@@ -46,6 +47,7 @@ def main():
         print("Hypothesis Rejected")
     else:
         print("Hypothesis Accepted")
+
 
 if __name__ == "__main__":
     main()
