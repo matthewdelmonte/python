@@ -45,5 +45,5 @@ def c_temp_message(temp, celcius):
     print(f"{temp} degrees Fahrenheit, is {str(round(celcius, 1))} degrees Celcius.")
 
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     main()
