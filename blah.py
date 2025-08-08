@@ -1,14 +1,33 @@
-from faker import Faker
+import pandas as pd
 
-fake = Faker()
+def mean():
+    scores = [40, 45, 23, 39, 39]
+    return sum(scores) / len(scores)
 
-for _ in range(10):
-    print(fake.name())
+print(mean())
 
-# print(fake.name())
-# print(fake.address())
-# print(fake.email())
-# print(fake.phone_number())
-# print(fake.date_of_birth())
-# print(fake.random_number())
-# print(fake.random_element(elements=("apple", "banana", "cherry")))
+def mode():
+    observation = [10, 20, 30, 30, 40, 50]
+    return pd.Series(observation).mode().iloc[0]
+
+print(mode())
+
+def median():
+    observation = [10, 20, 30, 30, 40, 50]
+    return pd.Series(observation).median()
+
+print(median())
+
+scores = [40, 45, 23, 39, 39]
+
+# First Quartile
+q1 = pd.Series(scores).quantile(.25)
+print(f"Q1: {q1}") # expect 39.0
+
+# Third Quartile
+q3 = pd.Series(scores).quantile(.75)
+print(f"Q3: {q3}") # expect 40.0
+
+# Inter Quartile Ratio
+iqr = q3 - q1
+print(f"IQR: {iqr}") # expect 1.0
