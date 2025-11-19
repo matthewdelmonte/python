@@ -1,3 +1,5 @@
+# Use avg_sample_data.csv for testing
+
 def average(total, count):
     return total / count
 
