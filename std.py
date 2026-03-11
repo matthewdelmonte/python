@@ -6,8 +6,11 @@ rng = np.random.default_rng()
 # Generate an array of 20 random numbers
 a = rng.random(20)
 
-print("a: ", a)
+mean = np.mean(a)
+std = np.std(a)
 
-print("mean: ", np.mean(a))
+print(f"a: {a}")
 
-print("standard deviation: ", np.std(a))
+print(f"mean: {mean}")
+
+print(f"standard deviation: {std}")
