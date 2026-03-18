@@ -1,0 +1,55 @@
+{
+    "achievement_goal": "Establish a data-driven feedback loop between Marketing and Engineering by Day 90.",
+    "phases": [
+        {
+            "title": "Days 1-30: Discovery",
+            "milestone": "Complete Stakeholder Map & Tech Audit",
+            "tasks": [
+                {
+                    "name": "1-on-1s with Eng leads",
+                    "done": false
+                },
+                {
+                    "name": "Audit SaaS onboarding funnel",
+                    "done": false
+                },
+                {
+                    "name": "Review Q1/Q2 churn data",
+                    "done": false
+                }
+            ]
+        },
+        {
+            "title": "Days 31-60: Integration",
+            "milestone": "First Feature/Fix Shipped",
+            "tasks": [
+                {
+                    "name": "Align Jira workflow with Marketing needs",
+                    "done": false
+                },
+                {
+                    "name": "Present 'Quick Win' feature spec",
+                    "done": false
+                }
+            ]
+        },
+        {
+            "title": "Days 61-90: Optimized",
+            "milestone": "Basic Therapuetics Nonmenclature Knowledge",
+            "tasks": [
+                {
+                    "name": "blah 1",
+                    "done": false
+                },
+                {
+                    "name": "blah 2",
+                    "done": false
+                },
+                {
+                    "name": "blah 3",
+                    "done": false
+                }
+            ]
+        }
+    ]
+}

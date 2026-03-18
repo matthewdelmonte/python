@@ -1,51 +1,83 @@
-def print_progress_bar(completed, total):
-    """Calculates and prints a visual progress bar."""
-    if total == 0: return
-    percentage = (completed / total) * 100
-    bar = "█" * int(percentage // 10) + "░" * (10 - int(percentage // 10))
-    print(f"Overall Progress: |{bar}| {percentage:.1f}%")
+import json
+import os
 
-def generate_interactive_roadmap(roadmap):
+def load_data(filepath):
+    """Imports the JSON data from the specified path."""
+    with open(filepath, 'r') as file:
+        return json.load(file)
+
+def save_to_markdown(output_text, filename="PM_Status_Report.md"):
+    """Ensures the Reports directory exists and saves the Markdown file."""
+    # Define the directory and full path
+    report_dir = "Reports"
+    
+    # Check if directory exists; if not, create it
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+        print(f"📁 Created directory: {report_dir}")
+
+    full_path = os.path.join(report_dir, filename)
+
+    # Write the file to the new path
+    with open(full_path, "w", encoding="utf-8") as f:
+        f.write(output_text)
+        
+    print(f"\n✅ Success! Report saved to: {full_path}")
+
+# def save_to_markdown(output_text, filename="PM_Status_Report.md"):
+#     """Writes the generated roadmap to a Markdown file."""
+#     with open(filename, "w", encoding="utf-8") as f:
+#         f.write(output_text)
+#     print(f"\n✅ Success! Report saved to: {filename}")
+
+def get_progress_bar_string(completed, total):
+    """Generates the visual progress bar as a string."""
+    if total == 0: return "|░░░░░░░░░░| 0.0%"
+    percentage = (completed / total) * 100
+    blocks = int(percentage // 10)
+    bar = "█" * blocks + "░" * (10 - blocks)
+    return f"|{bar}| {percentage:.1f}%"
+
+def generate_roadmap_string(roadmap):
+    """Generates the roadmap and returns it as a formatted string."""
+    output = []
     total_tasks = 0
     completed_tasks = 0
     
-    print(f"--- 🎯 PROFESSIONAL GOAL: {roadmap['achievement_goal']} ---\n")
+    output.append(f"--- 🎯 PROFESSIONAL GOAL: {roadmap['achievement_goal']} ---\n")
     
     for phase in roadmap["phases"]:
-        print(f"🚀 {phase['title'].upper()}")
-        print(f"🚩 MILESTONE: {phase['milestone']}")
+        output.append(f"🚀 {phase['title'].upper()}")
+        output.append(f"🚩 MILESTONE: {phase['milestone']}\n")
         
         for task in phase["tasks"]:
             total_tasks += 1
-            status = "✅" if task["done"] else "⬜"
+            status = "✅" if task["done"] else "⬜" 
             if task["done"]: completed_tasks += 1
-            print(f"  {status} {task['name']}")
-        print("-" * 30)
+            output.append(f"{status} {task['name']}")
+        output.append("\n" + ("-" * 30) + "\n")
 
-    print_progress_bar(completed_tasks, total_tasks)
+    # Progress Calculation & Visual Bar
+    bar_str = get_progress_bar_string(completed_tasks, total_tasks)
+    output.append(f"Overall Progress:\n {bar_str} ")
+    
+    return "\n".join(output)
 
-# Updated Data Structure with Progress Tracking
-my_pm_data = {
-    "achievement_goal": "Establish a data-driven feedback loop between Marketing and Engineering by Day 90.",
-    "phases": [
-        {
-            "title": "Days 1-30: Discovery",
-            "milestone": "Complete Stakeholder Map & Tech Audit",
-            "tasks": [
-                {"name": "1-on-1s with Eng leads", "done": True},
-                {"name": "Audit SaaS onboarding funnel", "done": False},
-                {"name": "Review Q1/Q2 churn data", "done": False}
-            ]
-        },
-        {
-            "title": "Days 31-60: Integration",
-            "milestone": "First Feature/Fix Shipped",
-            "tasks": [
-                {"name": "Align Jira workflow with Marketing needs", "done": False},
-                {"name": "Present 'Quick Win' feature spec", "done": False}
-            ]
-        }
-    ]
-}
+# --- EXECUTION ---
+data_path = os.path.join("Data", "roadmap_data.json")
 
-generate_interactive_roadmap(my_pm_data)
+try:
+    # 1. Load the JSON
+    my_pm_data = load_data(data_path)
+    
+    # 2. Generate the content
+    final_report = generate_roadmap_string(my_pm_data)
+    
+    # 3. Print to console for immediate view
+    print(final_report)
+    
+    # 4. Export to Markdown
+    save_to_markdown(final_report)
+
+except FileNotFoundError:
+    print(f"Error: Could not find the JSON file at {data_path}. Please check your Data folder.")
