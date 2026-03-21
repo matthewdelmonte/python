@@ -1,28 +1,33 @@
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
 from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_ollama import ChatOllama
 
-# 1. Initialize Embeddings with the Arctic Model
-# Note: Snowflake models perform best when queries are prefixed.
+# 1. Load the PDF
+# Place your 'document.pdf' in the same folder as this script
+loader = PyPDFLoader("./genai.pmi.pdf")
+docs = loader.load()
+
+# 2. Split the PDF into chunks
+# This is crucial for precise retrieval and staying within context limits
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+chunks = text_splitter.split_documents(docs)
+
+# 3. Initialize Embeddings
 embeddings = OllamaEmbeddings(
-    model="snowflake-arctic-embed:m"
+    model="snowflake-arctic-embed:m",
 )
 
-# 2. Setup your "Knowledge Base" (The Documents)
-data = [
-    "The project deadline is October 15th, 2026.",
-    "Agile methodology emphasizes iterative development and customer feedback.",
-    "The budget for the SaaS marketing campaign is $50,000."
-]
-vectorstore = DocArrayInMemorySearch.from_texts(data, embeddings)
+# 4. Create Vector Store from the PDF chunks
+vectorstore = DocArrayInMemorySearch.from_documents(chunks, embeddings)
 retriever = vectorstore.as_retriever()
 
-# 3. Setup the LLM (for generating the final answer)
+# 5. Setup LLM and RAG Chain
 llm = ChatOllama(model="llama3")
 
-# 4. Create the RAG Chain
 template = """Answer the question based only on the following context:
 {context}
 
@@ -36,6 +41,30 @@ chain = (
     | llm
 )
 
-# 5. Execute
-response = chain.invoke("When is the project due?")
-print(f"Response: {response.content}")
+# 6. Ask a question about your PDF
+print("\n--- PDF Chat Initialized ---")
+print("Type 'exit' or 'quit' to stop.\n")
+
+while True:
+    # Get the question from the terminal
+    user_question = input("User > ")
+
+    # Check if the user wants to quit
+    if user_question.lower() in ["exit", "quit", "q"]:
+        print("Exiting chat. Goodbye, Matthew!")
+        break
+
+    # Ensure the input isn't empty
+    if not user_question.strip():
+        continue
+
+    # Process the question through the RAG chain
+    print("Thinking...")
+    try:
+        response = chain.invoke(user_question)
+        print(f"\nAI > {response.content}\n")
+        print("-" * 30)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+# response = chain.invoke("What is the main conclusion of this document?")
+# print(f"Response: {response.content}")
