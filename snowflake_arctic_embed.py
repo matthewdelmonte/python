@@ -8,7 +8,7 @@ from langchain_ollama import ChatOllama
 
 # 1. Load the PDF
 # Place your 'document.pdf' in the same folder as this script
-loader = PyPDFLoader("./genai.pmi.pdf")
+loader = PyPDFLoader("./PDF/genai.pmi.pdf")
 docs = loader.load()
 
 # 2. Split the PDF into chunks
