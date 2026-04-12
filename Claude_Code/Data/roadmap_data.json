@@ -1,0 +1,850 @@
+{
+    "meta": {
+        "role": "Project Resource Specialist",
+        "company": "Carimus",
+        "start_date": "2026-04-06",
+        "phase_end_dates": {
+            "phase_1": "2026-05-05",
+            "phase_2": "2026-06-04",
+            "phase_3": "2026-07-05"
+        },
+        "achievement_goal": "Complete mastery of job responsibilities, delivering better-than-expected results, establishing as an agent of change and trusted leader — with promotion within 6 months.",
+        "utilization_target_percent": 85,
+        "last_updated": "2026-04-12",
+        "utilization_log": [
+            {
+                "week_ending": "2026-04-12",
+                "week_number": 1,
+                "target_percent": 85,
+                "resources": {
+                    "engineering": {
+                        "display": "<50%",
+                        "utilization_percent": 50,
+                        "status": "critical",
+                        "notes": "Week 1 baseline —  utilization is less than 50%"
+                    },
+                    "creative_design": {
+                        "display": "78%",
+                        "utilization_percent": 78,
+                        "status": "on_track",
+                        "notes": "Week 1 baseline"
+                    },
+                    "creative_copy": {
+                        "display": "62%",
+                        "utilization_percent": 62,
+                        "status": "at_risk",
+                        "notes": "Week 1 baseline"
+                    }
+                }
+            }
+        ],
+        "instructions": {
+            "status_values": [
+                "not_started",
+                "in_progress",
+                "complete",
+                "blocked"
+            ],
+            "owner_values": [
+                "Matthew",
+                "Ken",
+                "Tmar",
+                "Nico",
+                "Justin"
+            ],
+            "is_dependency": "true = owned by someone else; Matthew's job is to follow up until unblocked",
+            "percent_complete": "0-100 integer representing your honest progress estimate"
+        }
+    },
+    "phases": [
+        {
+            "id": "phase_1",
+            "title": "Days 1–30: Foundation & Onboarding",
+            "date_range": {
+                "start": "2026-04-06",
+                "end": "2026-05-05"
+            },
+            "phase_milestone": "System Access Secured, Org Knowledge Built, First Resource Planning Meeting Co-Led",
+            "phase_status": "in_progress",
+            "phase_percent_complete": 0,
+            "goals": [
+                {
+                    "id": "g1_float_access",
+                    "category": "System Access & Platform Onboarding",
+                    "title": "Gain full Float access and make first independent resource assignment",
+                    "description": "Get login credentials, understand Float's layout, review current assignments across all projects, and make at least one initial resource assignment.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-04-13",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t1_1",
+                            "name": "Confirm Float login access is active",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-07",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t1_2",
+                            "name": "Review all current active project assignments in Float",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-10",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t1_3",
+                            "name": "Make first independent resource assignment in Float",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g2_org_knowledge",
+                    "category": "Organizational Knowledge & Relationship Building",
+                    "title": "Learn all employees' skills, projects, and key internal/external contacts",
+                    "description": "Build a working mental map of every employee's skills and primary project(s). Complete all onboarding introductions. Review all orientation materials assigned by Ken.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-05-05",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t2_1",
+                            "name": "Review Carimus Introduction slide pitch deck",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-10",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "URL: https://docs.google.com/presentation/d/15-VIaAjxKoeYaAulsUYlFBA7ibLdnXcZiiwlA0VSzDg"
+                        },
+                        {
+                            "id": "t2_2",
+                            "name": "Review Build Operate Transfer (BOT) model slides",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-14",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "URL: Service_BOT - Google Drive (get link from Ken)"
+                        },
+                        {
+                            "id": "t2_3",
+                            "name": "Review Spyrosoft intranet site with Ken",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-17",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/2/2026; explore with Ken to determine value and use."
+                        },
+                        {
+                            "id": "t2_4",
+                            "name": "Map all employees to their current skills and primary project assignments",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-30",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Under 25 employees. Use existing skill matrix + Float as source of truth."
+                        },
+                        {
+                            "id": "t2_5",
+                            "name": "[DEPENDENCY] Ken to introduce Matthew to company recruiters",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-20",
+                            "owner": "Ken",
+                            "is_dependency": true,
+                            "notes": "Follow up with Ken if not completed by target date."
+                        },
+                        {
+                            "id": "t2_6",
+                            "name": "[DEPENDENCY] Ken to introduce Matthew to Marcin (Spyrosoft)",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-20",
+                            "owner": "Ken",
+                            "is_dependency": true,
+                            "notes": "Follow up with Ken if not completed by target date."
+                        },
+                        {
+                            "id": "t2_7",
+                            "name": "[DEPENDENCY] Ken to introduce Matthew to Carla (Spyrosoft - Argentina / Mojo Super)",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-20",
+                            "owner": "Ken",
+                            "is_dependency": true,
+                            "notes": "Carla is coordinating to identify staff for Mojo Super project. Follow up with Ken."
+                        },
+                        {
+                            "id": "t2_8",
+                            "name": "[DEPENDENCY] Ken to send associated Spyrosoft document",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-14",
+                            "owner": "Ken",
+                            "is_dependency": true,
+                            "notes": "Remind Ken directly. Associated with Spyrosoft intranet link above."
+                        },
+                        {
+                            "id": "t2_9",
+                            "name": "Introduce self to Joanna Jagoda (L&D Specialist, Spyrosoft)",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-21",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Email: jag@spyro-soft.com — introduce yourself and establish a working relationship for future skills development coordination."
+                        },
+                        {
+                            "id": "t2_10",
+                            "name": "Explore and document value of Resource Profile GPT tool",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-21",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "URL: https://chatgpt.com/g/g-p-69d54dee54ec81919eaedeb46c0a138e-resource-profile-generator — trained by Tony. Use to author/revise resource profiles."
+                        }
+                    ]
+                },
+                {
+                    "id": "g3_meeting_shadow",
+                    "category": "Resource Planning Meetings",
+                    "title": "Shadow Resource Planning meetings and co-lead by Day 30",
+                    "description": "Attend all Resource Planning meetings with Tmar in observer/shadow mode. Understand agenda format, participants, cadence, and decision framework. Co-lead the meeting with Tmar by Day 30 (target: May 5).",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-05-05",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t3_1",
+                            "name": "Confirm Resource Planning meeting schedule and cadence with Tmar",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-09",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t3_2",
+                            "name": "Attend at least 2 Resource Planning meetings in shadow/observer mode",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-25",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Document meeting structure, recurring agenda items, and participants."
+                        },
+                        {
+                            "id": "t3_3",
+                            "name": "Co-lead Resource Planning meeting with Tmar",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-05",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Target: Day 30. Own at least half the agenda. Debrief with Tmar afterward."
+                        }
+                    ]
+                },
+                {
+                    "id": "g4_profile_audit",
+                    "category": "Resource Profiles & Skill Matrix",
+                    "title": "Complete audit of all employee profiles and identify standardization gaps",
+                    "description": "Review all existing employee profiles in the Google Drive folder. Identify which profiles are out-of-date, non-standardized, or missing entirely. Prepare a prioritized update list.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-04-25",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Profiles folder: https://drive.google.com/drive/u/0/folders/1wY1fdHC5_RZsfl2JthmFKl4AHqXREHHM",
+                    "tasks": [
+                        {
+                            "id": "t4_1",
+                            "name": "Access Google Drive employee profiles folder",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-09",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t4_2",
+                            "name": "Audit all profiles and document gaps/inconsistencies",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-18",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t4_3",
+                            "name": "Discuss profile template standards with Ken — confirm if updates needed",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-04-21",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Ken's note: 'We may need to discuss if we need to update the templates.'"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "phase_2",
+            "title": "Days 31–60: Transition & Process Development",
+            "date_range": {
+                "start": "2026-05-06",
+                "end": "2026-06-04"
+            },
+            "phase_milestone": "Solo Resource Planning Owner, Utilization Tracking Live, Profiles Standardized, Intake Process Documented",
+            "phase_status": "not_started",
+            "phase_percent_complete": 0,
+            "goals": [
+                {
+                    "id": "g5_meeting_solo",
+                    "category": "Resource Planning Meetings",
+                    "title": "Run Resource Planning meetings independently by Day 45",
+                    "description": "Fully own and facilitate the Resource Planning meeting cadence without Tmar. Document a repeatable agenda template and meeting norms.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-05-20",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Day 45 target = May 20, 2026. This is the agreed solo ownership date.",
+                    "tasks": [
+                        {
+                            "id": "t5_1",
+                            "name": "Run first solo Resource Planning meeting",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Tmar available for support but Matthew owns the meeting entirely."
+                        },
+                        {
+                            "id": "t5_2",
+                            "name": "Document and publish meeting agenda template",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Standardize format so the meeting scales if ownership transitions again."
+                        }
+                    ]
+                },
+                {
+                    "id": "g6_profiles_complete",
+                    "category": "Resource Profiles & Skill Matrix",
+                    "title": "Complete all employee profile updates and standardize for partner/RFI/RFP use",
+                    "description": "Update and standardize all employee profiles (<25 headcount). Use Resource Profile GPT tool where applicable. Upload finalized versions to Google Drive.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-05-30",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t6_1",
+                            "name": "Complete updated profiles for all employees using standardized template",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-23",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Use Resource Profile GPT tool to accelerate authoring."
+                        },
+                        {
+                            "id": "t6_2",
+                            "name": "Upload all final profiles to Google Drive folder",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-30",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g7_skill_matrix",
+                    "category": "Resource Profiles & Skill Matrix",
+                    "title": "Own skill matrix, identify all gaps, and deliver a skills development plan",
+                    "description": "Assume full ownership of the employee skill matrix. Complete a gap analysis. Develop a concrete, prioritized skills development plan and get alignment from BU managers.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-06-04",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t7_1",
+                            "name": "Assume ownership of existing skill matrix document",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-09",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Locate, version, and take editorial ownership."
+                        },
+                        {
+                            "id": "t7_2",
+                            "name": "Complete full skills audit across all employees",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-16",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t7_3",
+                            "name": "Identify and document skill gaps by team and project demand",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-23",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Cross-reference against upcoming project pipeline and Float assignments."
+                        },
+                        {
+                            "id": "t7_4",
+                            "name": "Draft skills development plan for identified gaps",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-04",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Coordinate with Joanna Jagoda (Spyrosoft L&D) for training resources."
+                        }
+                    ]
+                },
+                {
+                    "id": "g8_intake_process",
+                    "category": "Resource Utilization",
+                    "title": "Design and document the PM resource intake process (Float workflow)",
+                    "description": "Build a formal, repeatable process for how PMs submit resource requirements. Define the full workflow: intake → initial Float assignment → PM verification → BU lead sign-off.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-05-30",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Ken's note: 'Develop process to intake resource requirements from PMs so you can perform initial assignment in Float and then verify with PM and BU lead.'",
+                    "tasks": [
+                        {
+                            "id": "t8_1",
+                            "name": "Interview PMs to document current (informal) resource request process",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t8_2",
+                            "name": "Design formal intake process: form, workflow, SLA",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t8_3",
+                            "name": "Review draft process with Tmar, Nico, and Justin — get alignment",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t8_4",
+                            "name": "Document finalized process and share with PMs",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-30",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g9_utilization_launch",
+                    "category": "Resource Utilization",
+                    "title": "Launch active utilization tracking and establish baseline metrics",
+                    "description": "Stand up a consistent utilization tracking process in Float. Establish a reporting cadence with Tmar, Nico, and Justin. Identify any employees or BUs currently at risk of missing the 85% billable hours target.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-06-04",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Coordinate with: Tmar, Nico, Justin",
+                    "tasks": [
+                        {
+                            "id": "t9_1",
+                            "name": "Establish baseline utilization metrics for all employees in Float",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-16",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t9_2",
+                            "name": "Set up weekly utilization reporting cadence with Tmar, Nico, and Justin",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-23",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t9_3",
+                            "name": "Identify employees and BUs currently tracking below 85% utilization target",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-30",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g10_sales_prs_draft",
+                    "category": "Sales-to-PRS Communication Framework",
+                    "title": "Draft the Sales ↔ PRS capacity communication framework",
+                    "description": "Design a two-way communication model: (1) PRS → Sales: available capacity by skill type to help Sales pitch the right scope. (2) Sales → PRS: market demand signals for skills we may not currently have. This is a high-visibility strategic deliverable.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-06-04",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Ken's note: 'Communication between sales team and PRS about forecasting available capacity by skill to assist sales in pitching the right project scope. Communication from sales about what the market demands that we may not deliver with existing skills.'",
+                    "tasks": [
+                        {
+                            "id": "t10_1",
+                            "name": "Schedule working session with Sales team to understand capacity visibility needs",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t10_2",
+                            "name": "Draft PRS → Sales communication: available capacity by skill type",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t10_3",
+                            "name": "Draft Sales → PRS communication: market demand and skills gap signals",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-05-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "phase_3",
+            "title": "Days 61–90: Optimization & Impact",
+            "date_range": {
+                "start": "2026-06-05",
+                "end": "2026-07-05"
+            },
+            "phase_milestone": "85% Utilization Target Established, Sales-PRS Framework Delivered, Managed Services Transition Ready, Staffing Partnerships Active",
+            "phase_status": "not_started",
+            "phase_percent_complete": 0,
+            "goals": [
+                {
+                    "id": "g11_utilization_target",
+                    "category": "Resource Utilization",
+                    "title": "Drive company-wide utilization trending toward 85% billable target",
+                    "description": "Move beyond tracking and into active management. Present utilization reports to BU managers. Identify corrective actions for BUs below target. Demonstrate measurable progress toward 85%.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-07-05",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t11_1",
+                            "name": "Present utilization report to BU managers — show current vs. 85% target",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t11_2",
+                            "name": "Define corrective actions for each BU currently below 85% target",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t11_3",
+                            "name": "Report measurable utilization improvement to Ken at Day 90 review",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-07-05",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Quantify delta from baseline established in Phase 2."
+                        }
+                    ]
+                },
+                {
+                    "id": "g12_sales_prs_final",
+                    "category": "Sales-to-PRS Communication Framework",
+                    "title": "Finalize and implement the Sales ↔ PRS communication framework",
+                    "description": "Finalize the two-way capacity communication model, present to Ken and stakeholders, and implement the first operational iteration.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-06-27",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t12_1",
+                            "name": "Finalize and document the Sales ↔ PRS communication framework",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t12_2",
+                            "name": "Present framework to Ken and relevant stakeholders for approval",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t12_3",
+                            "name": "Implement first operational iteration of the framework",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g13_skills_dev_plan",
+                    "category": "Resource Profiles & Skill Matrix",
+                    "title": "Present and begin implementing skills development plan",
+                    "description": "Present the gap analysis and development plan to BU managers. Begin first round of skills development actions. Coordinate external training resources through Joanna Jagoda at Spyrosoft.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-07-05",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t13_1",
+                            "name": "Present skills gap analysis and development plan to BU managers",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        },
+                        {
+                            "id": "t13_2",
+                            "name": "Coordinate with Joanna Jagoda (Spyrosoft L&D) on external training resources",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Email: jag@spyro-soft.com"
+                        },
+                        {
+                            "id": "t13_3",
+                            "name": "Implement first round of skills development actions",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-07-05",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "g14_managed_services",
+                    "category": "Customer Engagement - Hosting Managed Services",
+                    "title": "Assume customer engagement lead for Hosting Managed Services",
+                    "description": "Work with Tmar and Nico to design and document the production-launch-to-managed-services transition process. Assume full customer engagement lead responsibility for Hosting Managed Services. Scope includes: client-facing communication, SLA management, and incident escalation.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-07-05",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "Reference example: Ken's email with PlanWorx re: updating admin active directory on hosted site.",
+                    "tasks": [
+                        {
+                            "id": "t14_1",
+                            "name": "Meet with Tmar and Nico to map current managed services transition process",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Cover: how client comms are currently handled, existing SLA definitions, and how incidents are escalated today."
+                        },
+                        {
+                            "id": "t14_2",
+                            "name": "Document production-launch-to-managed-services handoff process (comms, SLA, escalation)",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Document must cover: (1) client-facing communication cadence, (2) SLA definitions and measurement, (3) incident escalation path and ownership."
+                        },
+                        {
+                            "id": "t14_3",
+                            "name": "Formally assume customer engagement lead — client comms, SLA mgmt, incident escalation",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-07-05",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Confirm handoff with Tmar and Nico. Notify relevant clients of point-of-contact change."
+                        }
+                    ]
+                },
+                {
+                    "id": "g15_staffing_partnerships",
+                    "category": "Recruiting & Staffing Partnerships",
+                    "title": "Establish active relationships with recruiters and Spyrosoft staffing contacts",
+                    "description": "Complete all intro meetings unlocked by Ken's introductions. Understand the recruiting and hiring process. Document the Spyrosoft partnership model and its operational relevance to resource planning.",
+                    "status": "not_started",
+                    "percent_complete": 0,
+                    "target_date": "2026-06-27",
+                    "owner": "Matthew",
+                    "is_dependency": false,
+                    "notes": "",
+                    "tasks": [
+                        {
+                            "id": "t15_1",
+                            "name": "Complete intro meeting with company recruiters (follow up on Ken dependency)",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Blocked until Ken completes t2_5."
+                        },
+                        {
+                            "id": "t15_2",
+                            "name": "Complete intro meeting with Marcin from Spyrosoft",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Blocked until Ken completes t2_6."
+                        },
+                        {
+                            "id": "t15_3",
+                            "name": "Complete intro meeting with Carla from Spyrosoft re: Mojo Super project",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-13",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Blocked until Ken completes t2_7. Carla is identifying staff for Mojo Super."
+                        },
+                        {
+                            "id": "t15_4",
+                            "name": "Document hiring and recruiting process with Ken",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-20",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Understand when and how to engage recruiters vs. Spyrosoft for new resource needs."
+                        },
+                        {
+                            "id": "t15_5",
+                            "name": "Document Spyrosoft partnership model and integrate into resource planning process",
+                            "status": "not_started",
+                            "percent_complete": 0,
+                            "target_date": "2026-06-27",
+                            "owner": "Matthew",
+                            "is_dependency": false,
+                            "notes": "Include BOT model context. Define when Spyrosoft is the right sourcing channel."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
