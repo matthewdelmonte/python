@@ -12,28 +12,28 @@
 
   📌 [Organizational Knowledge & Relationship Building]
      Learn all employees' skills, projects, and key internal/external contacts
-      ⬜ Review Carimus Introduction slide pitch deck  (0%)  // URL: https://docs.google.com/presentation/d/15-VIaAjxKoeYaAulsUYlFBA7ibLdnXcZiiwlA0VSzDg
-      ⬜ Review Build Operate Transfer (BOT) model slides  (0%)  // URL: Service_BOT - Google Drive (get link from Ken)
+      ✅ Review Carimus Introduction slide pitch deck  (100%)  // URL: https://docs.google.com/presentation/d/15-VIaAjxKoeYaAulsUYlFBA7ibLdnXcZiiwlA0VSzDg
+      ✅ Review Build Operate Transfer (BOT) model slides  (100%)
       ⬜ Review Spyrosoft intranet site with Ken  (0%)  // URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/2/2026; explore with Ken to determine value and use.
-      ⬜ Map all employees to their current skills and primary project assignments  (0%)  // Under 25 employees. Use existing skill matrix + Float as source of truth.
+      ✅ Map all employees to their current skills and primary project assignments  (100%)  // Under 25 employees. Use existing skill matrix + Float as source of truth.
       ⬜ [DEPENDENCY] Ken to introduce Matthew to company recruiters  [↳ dep]  (0%)  // Follow up with Ken if not completed by target date.
       ⬜ [DEPENDENCY] Ken to introduce Matthew to Marcin (Spyrosoft)  [↳ dep]  (0%)  // Follow up with Ken if not completed by target date.
       ⬜ [DEPENDENCY] Ken to introduce Matthew to Carla (Spyrosoft - Argentina / Mojo Super)  [↳ dep]  (0%)  // Carla is coordinating to identify staff for Mojo Super project. Follow up with Ken.
       ⬜ [DEPENDENCY] Ken to send associated Spyrosoft document  [↳ dep]  (0%)  // Remind Ken directly. Associated with Spyrosoft intranet link above.
       ⬜ Introduce self to Joanna Jagoda (L&D Specialist, Spyrosoft)  (0%)  // Email: jag@spyro-soft.com — introduce yourself and establish a working relationship for future skills development coordination.
-      ⬜ Explore and document value of Resource Profile GPT tool  (0%)  // URL: https://chatgpt.com/g/g-p-69d54dee54ec81919eaedeb46c0a138e-resource-profile-generator — trained by Tony. Use to author/revise resource profiles.
+      ✅ Explore and document value of Resource Profile GPT tool  (100%)  // URL: https://chatgpt.com/g/g-p-69d54dee54ec81919eaedeb46c0a138e-resource-profile-generator — trained by Tony. Use to author/revise resource profiles.
 
   📌 [Resource Planning Meetings]
      Shadow Resource Planning meetings and co-lead by Day 30
-      ⬜ Confirm Resource Planning meeting schedule and cadence with Tmar  (0%)
-      ⬜ Attend at least 2 Resource Planning meetings in shadow/observer mode  (0%)  // Document meeting structure, recurring agenda items, and participants.
-      ⬜ Co-lead Resource Planning meeting with Tmar  (0%)  // Target: Day 30. Own at least half the agenda. Debrief with Tmar afterward.
+      ✅ Confirm Resource Planning meeting schedule and cadence with Tmar  (100%)
+      ✅ Attend at least 2 Resource Planning meetings in shadow/observer mode  (100%)  // Document meeting structure, recurring agenda items, and participants.
+      ✅ Co-lead Resource Planning meeting with Tmar  (100%)  // Target: Day 30. Own at least half the agenda. Debrief with Tmar afterward.
 
   📌 [Resource Profiles & Skill Matrix]
      Complete audit of all employee profiles and identify standardization gaps
-      ⬜ Access Google Drive employee profiles folder  (0%)
-      ⬜ Audit all profiles and document gaps/inconsistencies  (0%)
-      ⬜ Discuss profile template standards with Ken — confirm if updates needed  (0%)  // Ken's note: 'We may need to discuss if we need to update the templates.'
+      ✅ Access Google Drive employee profiles folder  (100%)
+      🔄 Audit all profiles and document gaps/inconsistencies  (75%)
+      ✅ Discuss profile template standards with Ken — confirm if updates needed  (100%)  // Ken's note: 'We may need to discuss if we need to update the templates.'
 
 ----------------------------------------
 
@@ -124,5 +124,5 @@
    • Creative Design      78%       [ON_TRACK]  // Week 1 baseline
    • Creative Copy        62%       [AT_RISK]  // Week 1 baseline
 
-Overall Progress:  (2/54 tasks complete)
- |░░░░░░░░░░| 3.7% 
+Overall Progress:  (11/54 tasks complete)
+ |██░░░░░░░░| 20.4% 
