@@ -10,7 +10,7 @@
         },
         "achievement_goal": "Complete mastery of job responsibilities, delivering better-than-expected results, establishing as an agent of change and trusted leader — with promotion within 6 months.",
         "utilization_target_percent": 85,
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-05-02",
         "utilization_log": [
             {
                 "week_ending": "2026-04-12",
@@ -66,7 +66,7 @@
             },
             "phase_milestone": "System Access Secured, Org Knowledge Built, First Resource Planning Meeting Co-Led",
             "phase_status": "in_progress",
-            "phase_percent_complete": 0,
+            "phase_percent_complete": 79,
             "goals": [
                 {
                     "id": "g1_float_access",
@@ -152,7 +152,7 @@
                             "target_date": "2026-04-17",
                             "owner": "Matthew",
                             "is_dependency": false,
-                            "notes": "URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/2/2026; explore with Ken to determine value and use."
+                            "notes": "URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/12/2026; explore with Ken to determine value and use."
                         },
                         {
                             "id": "t2_4",
