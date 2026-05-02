@@ -8,17 +8,17 @@
      Gain full Float access and make first independent resource assignment
       ✅ Confirm Float login access is active  (100%)
       ✅ Review all current active project assignments in Float  (100%)
-      ⬜ Make first independent resource assignment in Float  (0%)
+      ✅ Make first independent resource assignment in Float  (100%)
 
   📌 [Organizational Knowledge & Relationship Building]
      Learn all employees' skills, projects, and key internal/external contacts
       ✅ Review Carimus Introduction slide pitch deck  (100%)  // URL: https://docs.google.com/presentation/d/15-VIaAjxKoeYaAulsUYlFBA7ibLdnXcZiiwlA0VSzDg
       ✅ Review Build Operate Transfer (BOT) model slides  (100%)
-      ⬜ Review Spyrosoft intranet site with Ken  (0%)  // URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/2/2026; explore with Ken to determine value and use.
+      ✅ Review Spyrosoft intranet site with Ken  (100%)  // URL: https://spyrosoft.sharepoint.com/sites/intranet — noted as new discovery on 4/12/2026; explore with Ken to determine value and use.
       ✅ Map all employees to their current skills and primary project assignments  (100%)  // Under 25 employees. Use existing skill matrix + Float as source of truth.
-      ⬜ [DEPENDENCY] Ken to introduce Matthew to company recruiters  [↳ dep]  (0%)  // Follow up with Ken if not completed by target date.
-      ⬜ [DEPENDENCY] Ken to introduce Matthew to Marcin (Spyrosoft)  [↳ dep]  (0%)  // Follow up with Ken if not completed by target date.
-      ⬜ [DEPENDENCY] Ken to introduce Matthew to Carla (Spyrosoft - Argentina / Mojo Super)  [↳ dep]  (0%)  // Carla is coordinating to identify staff for Mojo Super project. Follow up with Ken.
+      ✅ [DEPENDENCY] Ken to introduce Matthew to company recruiters  [↳ dep]  (100%)  // Follow up with Ken if not completed by target date.
+      ✅ [DEPENDENCY] Ken to introduce Matthew to Marcin (Spyrosoft)  [↳ dep]  (100%)  // Follow up with Ken if not completed by target date.
+      ✅ [DEPENDENCY] Ken to introduce Matthew to Carla (Spyrosoft - Argentina / Mojo Super)  [↳ dep]  (100%)  // Carla is coordinating to identify staff for Mojo Super project. Follow up with Ken.
       ⬜ [DEPENDENCY] Ken to send associated Spyrosoft document  [↳ dep]  (0%)  // Remind Ken directly. Associated with Spyrosoft intranet link above.
       ⬜ Introduce self to Joanna Jagoda (L&D Specialist, Spyrosoft)  (0%)  // Email: jag@spyro-soft.com — introduce yourself and establish a working relationship for future skills development coordination.
       ✅ Explore and document value of Resource Profile GPT tool  (100%)  // URL: https://chatgpt.com/g/g-p-69d54dee54ec81919eaedeb46c0a138e-resource-profile-generator — trained by Tony. Use to author/revise resource profiles.
@@ -43,37 +43,37 @@
 
   📌 [Resource Planning Meetings]
      Run Resource Planning meetings independently by Day 45
-      ⬜ Run first solo Resource Planning meeting  (0%)  // Tmar available for support but Matthew owns the meeting entirely.
-      ⬜ Document and publish meeting agenda template  (0%)  // Standardize format so the meeting scales if ownership transitions again.
+      ✅ Run first solo Resource Planning meeting  (100%)  // Tmar available for support but Matthew owns the meeting entirely.
+      ✅ Document and publish meeting agenda template  (100%)  // Standardize format so the meeting scales if ownership transitions again.
 
   📌 [Resource Profiles & Skill Matrix]
      Complete all employee profile updates and standardize for partner/RFI/RFP use
-      ⬜ Complete updated profiles for all employees using standardized template  (0%)  // Use Resource Profile GPT tool to accelerate authoring.
-      ⬜ Upload all final profiles to Google Drive folder  (0%)
+      🔄 Complete updated profiles for all employees using standardized template  (33%)  // Use Resource Profile GPT tool to accelerate authoring.
+      🔄 Upload all final profiles to One Drive folder  (33%)
 
   📌 [Resource Profiles & Skill Matrix]
      Own skill matrix, identify all gaps, and deliver a skills development plan
-      ⬜ Assume ownership of existing skill matrix document  (0%)  // Locate, version, and take editorial ownership.
-      ⬜ Complete full skills audit across all employees  (0%)
-      ⬜ Identify and document skill gaps by team and project demand  (0%)  // Cross-reference against upcoming project pipeline and Float assignments.
+      ✅ Assume ownership of existing skill matrix document  (100%)  // Locate, version, and take editorial ownership.
+      🔄 Complete full skills audit across all employees  (33%)
+      🔄 Identify and document skill gaps by team and project demand  (25%)  // Cross-reference against upcoming project pipeline and Float assignments.
       ⬜ Draft skills development plan for identified gaps  (0%)  // Coordinate with Joanna Jagoda (Spyrosoft L&D) for training resources.
 
   📌 [Resource Utilization]
      Design and document the PM resource intake process (Float workflow)
-      ⬜ Interview PMs to document current (informal) resource request process  (0%)
-      ⬜ Design formal intake process: form, workflow, SLA  (0%)
-      ⬜ Review draft process with Tmar, Nico, and Justin — get alignment  (0%)
-      ⬜ Document finalized process and share with PMs  (0%)
+      ✅ Interview PMs to document current (informal) resource request process  (100%)
+      ✅ Design formal intake process: form, workflow, SLA  (100%)
+      🔄 Review draft process with Tmar, Nico, and Justin — get alignment  (33%)
+      🔄 Document finalized process and share with PMs  (20%)
 
   📌 [Resource Utilization]
      Launch active utilization tracking and establish baseline metrics
-      ⬜ Establish baseline utilization metrics for all employees in Float  (0%)
-      ⬜ Set up weekly utilization reporting cadence with Tmar, Nico, and Justin  (0%)
-      ⬜ Identify employees and BUs currently tracking below 85% utilization target  (0%)
+      ✅ Establish baseline utilization metrics for all employees in Float  (100%)
+      ✅ Set up weekly utilization reporting cadence with Tmar, Nico, and Justin  (100%)
+      ✅ Identify employees and BUs currently tracking below 85% utilization target  (100%)
 
   📌 [Sales-to-PRS Communication Framework]
      Draft the Sales ↔ PRS capacity communication framework
-      ⬜ Schedule working session with Sales team to understand capacity visibility needs  (0%)
+      🔄 Schedule working session with Sales team to understand capacity visibility needs  (66%)
       ⬜ Draft PRS → Sales communication: available capacity by skill type  (0%)
       ⬜ Draft Sales → PRS communication: market demand and skills gap signals  (0%)
 
@@ -124,5 +124,5 @@
    • Creative Design      78%       [ON_TRACK]  // Week 1 baseline
    • Creative Copy        62%       [AT_RISK]  // Week 1 baseline
 
-Overall Progress:  (11/54 tasks complete)
- |██░░░░░░░░| 20.4% 
+Overall Progress:  (24/54 tasks complete)
+ |████░░░░░░| 44.4% 
