@@ -19,8 +19,8 @@
       ✅ [DEPENDENCY] Ken to introduce Matthew to company recruiters  [↳ dep]  (100%)  // Follow up with Ken if not completed by target date.
       ✅ [DEPENDENCY] Ken to introduce Matthew to Marcin (Spyrosoft)  [↳ dep]  (100%)  // Follow up with Ken if not completed by target date.
       ✅ [DEPENDENCY] Ken to introduce Matthew to Carla (Spyrosoft - Argentina / Mojo Super)  [↳ dep]  (100%)  // Carla is coordinating to identify staff for Mojo Super project. Follow up with Ken.
-      ⬜ [DEPENDENCY] Ken to send associated Spyrosoft document  [↳ dep]  (0%)  // Remind Ken directly. Associated with Spyrosoft intranet link above.
-      ⬜ Introduce self to Joanna Jagoda (L&D Specialist, Spyrosoft)  (0%)  // Email: jag@spyro-soft.com — introduce yourself and establish a working relationship for future skills development coordination.
+      ✅ [DEPENDENCY] Ken to send associated Spyrosoft document  [↳ dep]  (100%)  // Remind Ken directly. Associated with Spyrosoft intranet link above.
+      ✅ Introduce self to Joanna Jagoda (L&D Specialist, Spyrosoft)  (100%)  // Email: jag@spyro-soft.com — introduce yourself and establish a working relationship for future skills development coordination.
       ✅ Explore and document value of Resource Profile GPT tool  (100%)  // URL: https://chatgpt.com/g/g-p-69d54dee54ec81919eaedeb46c0a138e-resource-profile-generator — trained by Tony. Use to author/revise resource profiles.
 
   📌 [Resource Planning Meetings]
@@ -32,7 +32,7 @@
   📌 [Resource Profiles & Skill Matrix]
      Complete audit of all employee profiles and identify standardization gaps
       ✅ Access Google Drive employee profiles folder  (100%)
-      🔄 Audit all profiles and document gaps/inconsistencies  (75%)
+      ✅ Audit all profiles and document gaps/inconsistencies  (100%)
       ✅ Discuss profile template standards with Ken — confirm if updates needed  (100%)  // Ken's note: 'We may need to discuss if we need to update the templates.'
 
 ----------------------------------------
@@ -48,22 +48,22 @@
 
   📌 [Resource Profiles & Skill Matrix]
      Complete all employee profile updates and standardize for partner/RFI/RFP use
-      🔄 Complete updated profiles for all employees using standardized template  (33%)  // Use Resource Profile GPT tool to accelerate authoring.
-      🔄 Upload all final profiles to One Drive folder  (33%)
+      ✅ Complete updated profiles for all employees using standardized template  (100%)  // Use Resource Profile GPT tool to accelerate authoring.
+      ✅ Upload all final profiles to One Drive folder  (100%)
 
   📌 [Resource Profiles & Skill Matrix]
      Own skill matrix, identify all gaps, and deliver a skills development plan
       ✅ Assume ownership of existing skill matrix document  (100%)  // Locate, version, and take editorial ownership.
-      🔄 Complete full skills audit across all employees  (33%)
-      🔄 Identify and document skill gaps by team and project demand  (25%)  // Cross-reference against upcoming project pipeline and Float assignments.
+      ✅ Complete full skills audit across all employees  (100%)
+      ✅ Identify and document skill gaps by team and project demand  (100%)  // Cross-reference against upcoming project pipeline and Float assignments.
       ⬜ Draft skills development plan for identified gaps  (0%)  // Coordinate with Joanna Jagoda (Spyrosoft L&D) for training resources.
 
   📌 [Resource Utilization]
      Design and document the PM resource intake process (Float workflow)
       ✅ Interview PMs to document current (informal) resource request process  (100%)
       ✅ Design formal intake process: form, workflow, SLA  (100%)
-      🔄 Review draft process with Tmar, Nico, and Justin — get alignment  (33%)
-      🔄 Document finalized process and share with PMs  (20%)
+      ✅ Review draft process with Tmar, Nico, and Justin — get alignment  (100%)
+      ✅ Document finalized process and share with PMs  (100%)
 
   📌 [Resource Utilization]
      Launch active utilization tracking and establish baseline metrics
@@ -85,8 +85,8 @@
 
   📌 [Resource Utilization]
      Drive company-wide utilization trending toward 85% billable target
-      ⬜ Present utilization report to BU managers — show current vs. 85% target  (0%)
-      ⬜ Define corrective actions for each BU currently below 85% target  (0%)
+      ✅ Present utilization report to BU managers — show current vs. 85% target  (100%)
+      🔄 Define corrective actions for each BU currently below 85% target  (0%)
       ⬜ Report measurable utilization improvement to Ken at Day 90 review  (0%)  // Quantify delta from baseline established in Phase 2.
 
   📌 [Sales-to-PRS Communication Framework]
@@ -109,8 +109,8 @@
 
   📌 [Recruiting & Staffing Partnerships]
      Establish active relationships with recruiters and Spyrosoft staffing contacts
-      ⬜ Complete intro meeting with company recruiters (follow up on Ken dependency)  (0%)  // Blocked until Ken completes t2_5.
-      ⬜ Complete intro meeting with Marcin from Spyrosoft  (0%)  // Blocked until Ken completes t2_6.
+      ✅ Complete intro meeting with company recruiters (follow up on Ken dependency)  (100%)
+      ✅ Complete intro meeting with Marcin from Spyrosoft  (100%)
       ⬜ Complete intro meeting with Carla from Spyrosoft re: Mojo Super project  (0%)  // Blocked until Ken completes t2_7. Carla is identifying staff for Mojo Super.
       ⬜ Document hiring and recruiting process with Ken  (0%)  // Understand when and how to engage recruiters vs. Spyrosoft for new resource needs.
       ⬜ Document Spyrosoft partnership model and integrate into resource planning process  (0%)  // Include BOT model context. Define when Spyrosoft is the right sourcing channel.
@@ -124,5 +124,5 @@
    • Creative Design      78%       [ON_TRACK]  // Week 1 baseline
    • Creative Copy        62%       [AT_RISK]  // Week 1 baseline
 
-Overall Progress:  (24/54 tasks complete)
- |████░░░░░░| 44.4% 
+Overall Progress:  (36/54 tasks complete)
+ |██████░░░░| 66.7% 

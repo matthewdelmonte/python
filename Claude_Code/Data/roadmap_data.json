@@ -401,7 +401,7 @@
                     "title": "Own skill matrix, identify all gaps, and deliver a skills development plan",
                     "description": "Assume full ownership of the employee skill matrix. Complete a gap analysis. Develop a concrete, prioritized skills development plan and get alignment from BU managers.",
                     "status": "in_progress",
-                    "percent_complete": 35,
+                    "percent_complete": 75,
                     "target_date": "2026-06-04",
                     "owner": "Matthew",
                     "is_dependency": false,
@@ -420,8 +420,8 @@
                         {
                             "id": "t7_2",
                             "name": "Complete full skills audit across all employees",
-                            "status": "in_progress",
-                            "percent_complete": 33,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-05-16",
                             "owner": "Matthew",
                             "is_dependency": false,
@@ -430,8 +430,8 @@
                         {
                             "id": "t7_3",
                             "name": "Identify and document skill gaps by team and project demand",
-                            "status": "in_progress",
-                            "percent_complete": 25,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-05-23",
                             "owner": "Matthew",
                             "is_dependency": false,
@@ -454,8 +454,8 @@
                     "category": "Resource Utilization",
                     "title": "Design and document the PM resource intake process (Float workflow)",
                     "description": "Build a formal, repeatable process for how PMs submit resource requirements. Define the full workflow: intake → initial Float assignment → PM verification → BU lead sign-off.",
-                    "status": "in_progress",
-                    "percent_complete": 65,
+                    "status": "complete",
+                    "percent_complete": 100,
                     "target_date": "2026-05-30",
                     "owner": "Matthew",
                     "is_dependency": false,
@@ -484,8 +484,8 @@
                         {
                             "id": "t8_3",
                             "name": "Review draft process with Tmar, Nico, and Justin — get alignment",
-                            "status": "in_progress",
-                            "percent_complete": 33,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-05-27",
                             "owner": "Matthew",
                             "is_dependency": false,
@@ -494,8 +494,8 @@
                         {
                             "id": "t8_4",
                             "name": "Document finalized process and share with PMs",
-                            "status": "in_progress",
-                            "percent_complete": 20,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-05-30",
                             "owner": "Matthew",
                             "is_dependency": false,
@@ -601,7 +601,7 @@
                 "end": "2026-07-05"
             },
             "phase_milestone": "85% Utilization Target Established, Sales-PRS Framework Delivered, Managed Services Transition Ready, Staffing Partnerships Active",
-            "phase_status": "not_started",
+            "phase_status": "in_progress",
             "phase_percent_complete": 0,
             "goals": [
                 {
@@ -609,8 +609,8 @@
                     "category": "Resource Utilization",
                     "title": "Drive company-wide utilization trending toward 85% billable target",
                     "description": "Move beyond tracking and into active management. Present utilization reports to BU managers. Identify corrective actions for BUs below target. Demonstrate measurable progress toward 85%.",
-                    "status": "not_started",
-                    "percent_complete": 0,
+                    "status": "in_progress",
+                    "percent_complete": 33,
                     "target_date": "2026-07-05",
                     "owner": "Matthew",
                     "is_dependency": false,
@@ -619,8 +619,8 @@
                         {
                             "id": "t11_1",
                             "name": "Present utilization report to BU managers — show current vs. 85% target",
-                            "status": "in_progress",
-                            "percent_complete": 0,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-06-13",
                             "owner": "Matthew",
                             "is_dependency": false,
@@ -785,7 +785,7 @@
                     "category": "Recruiting & Staffing Partnerships",
                     "title": "Establish active relationships with recruiters and Spyrosoft staffing contacts",
                     "description": "Complete all intro meetings unlocked by Ken's introductions. Understand the recruiting and hiring process. Document the Spyrosoft partnership model and its operational relevance to resource planning.",
-                    "status": "not_started",
+                    "status": "in_progress",
                     "percent_complete": 0,
                     "target_date": "2026-06-27",
                     "owner": "Matthew",
@@ -795,22 +795,22 @@
                         {
                             "id": "t15_1",
                             "name": "Complete intro meeting with company recruiters (follow up on Ken dependency)",
-                            "status": "not_started",
-                            "percent_complete": 0,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-06-13",
                             "owner": "Matthew",
                             "is_dependency": false,
-                            "notes": "Blocked until Ken completes t2_5."
+                            "notes": ""
                         },
                         {
                             "id": "t15_2",
                             "name": "Complete intro meeting with Marcin from Spyrosoft",
-                            "status": "not_started",
-                            "percent_complete": 0,
+                            "status": "complete",
+                            "percent_complete": 100,
                             "target_date": "2026-06-13",
                             "owner": "Matthew",
                             "is_dependency": false,
-                            "notes": "Blocked until Ken completes t2_6."
+                            "notes": ""
                         },
                         {
                             "id": "t15_3",
